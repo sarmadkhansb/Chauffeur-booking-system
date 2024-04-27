@@ -20,6 +20,6 @@ register_activation_hook(__FILE__,array($Plugin,'pluginActivation'));
 add_action('init',array($Plugin,'init'));
 add_action('after_setup_theme',array($Plugin,'afterSetupTheme'));
 add_filter('woocommerce_locate_template',array($WooCommerce,'locateTemplate'),1,3);
-
+//test updated 
 $WidgetBookingForm=new CHBSWidgetBookingForm();
 $WidgetBookingForm->register();
